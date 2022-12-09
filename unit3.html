@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assests/css/unit_style.css">
+    <title>Unit 3</title>
+</head>
+
+<body>
+    <!-- start header -->
+    <header class="header container bg-wrap">
+        <div class="header_top flex_jcb">
+            <h1 class="header_logo flex_jcc">
+                <a href="#">
+                    <img width="160" height="40" src="./assests/images/coollogo_com-16613435.png" alt="">
+                </a>
+            </h1>
+            <div class="header_area flex_jcb">
+                <a class="internationar flex_jcc" href="#">
+                    <img src="./assests/images/giang.png" alt="">
+                    PhamVanGiang.it
+                </a>
+
+                <div class="headre_authen">
+                    <button type="button" class="header_account flex_jcc">
+                        <a href="#" class="text_login">Đăng Nhập</a>
+                        <a href="#" class="icon_login"><i class="fa-regular fa-user"></i></i></a>
+                    </button>
+                </div>
+                <a href="#" class="search_link"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start nav -->
+    <nav class="menu container bg-wrap">
+        <ol class="menu_wrap">
+            <li class="home"><a href="#">HOME</a></li>
+    
+            <li class="has_child"> <a href="#">Xã hội</a>
+                <ol class="sub_menu">
+                    <li> <a href="#">Chính trị</a> </li>
+                    <li> <a href="#">Học tập Bác</a> </li>
+                    <li> <a href="#">Môi trường</a> </li>
+                    <li> <a href="#">Giao thông</a> </li>
+                    <li> <a href="#">Nóng trên mạng</a> </li>
+                    <li> <a href="#">Sáng kiến an toàn giao thông</a> </li>
+                </ol>
+            </li>
+            <li class="has_child"> <a href="#">Thế giới</a>
+                <ol class="sub_menu">
+                    <li> <a href="#">Quân sự</a> </li>
+                    <li> <a href="#">Hồ sơ - Phân tích</a> </li>
+                    <li> <a href="#">Thế giới đó đây</a> </li>
+                    <li> <a href="#">Kiều bào</a> </li>
+                    <li> <a href="#">Căng thẳng Nga - Ukraine</a> </li>
+                </ol>
+            </li>
+            <li class="has_child"> <a href="#">Kinh doanh</a>
+                <ol class="sub_menu">
+                    <li> <a href="#">Tài chính</a> </li>
+                    <li> <a href="#">Chứng khoán</a> </li>
+                    <li> <a href="#">Doanh nghiệp</a> </li>
+                    <li> <a href="#">Khởi nghiệp</a> </li>
+                    <li> <a href="#">Tiêu dùng</a> </li>
+                    <li> <a href="#">Amaccao - Doanh nghiệp tiên phong</a>
+                    </li>
+                    <li> <a href="#">Thanh toán thông minh</a> </li>
+                </ol>
+            </li>
+            <li class="has_child"> <a href="#">Bất động sản</a>
+                <ol class="sub_menu">
+                    <li> <a href="#">Dự án</a> </li>
+                    <li> <a href="#">Thị trường</a> </li>
+                    <li> <a href="#">Nhà đất</a> </li>
+                    <li> <a href="#">Nhịp sống đô thị</a> </li>
+                    <li> <a href="#">Sống xanh</a> </li>
+                    <li> <a href="#">Nội thất</a> </li>
+                </ol>
+            </li>
+            <li class="has_child"> <a href="#">Thể thao</a>
+                <ol class="sub_menu">
+                    <li> <a href="#">World Cup 2022</a> </li>
+                    <li> <a href="#">Bóng đá trong nước</a> </li>
+                    <li> <a href="#">Bóng đá Châu Âu</a> </li>
+                    <li> <a href="#">Tennis</a> </li>
+                    <li> <a href="#">Golf</a> </li>
+                    <li> <a href="#">Võ thuật</a> </li>
+                    <li> <a href="#">Các môn Thể thao khác</a> </li>
+                    <li> <a href="#">Hậu trường</a> </li>
+                    <li> <a href="#">Lịch thi đấu</a> </li>
+                </ol>
+            </li>
+            <li class="has_child"> <a href="#">Việc làm</a>
+                <ol class="sub_menu">
+                    <li> <a href="#">Chính sách</a> </li>
+                    <li> <a href="#">Việc làm</a> </li>
+                    <li> <a href="#">Đưa nghị quyết 68 vào cuộc sống</a> </li>
+                    <li> <a href="#">Xuất khẩu lao động</a> </li>
+                    <li> <a href="#">Chúng tôi nói</a> </li>
+                </ol>
+            </li>
+            <li class="has_child"> <a href="#">Nhân ái</a>
+                <ol class="sub_menu">
+                    <li> <a href="#">Danh sách ủng hộ</a> </li>
+                    <li> <a href="#">Danh sách kết chuyển</a> </li>
+                    <li> <a href="#">Hoàn cảnh</a> </li>
+                </ol>
+            </li>
+            <li class="has_child"> <a href="#">Sức khỏe</a>
+                <ol class="sub_menu">
+                    <li> <a href="#">Ung thư</a> </li>
+                    <li> <a href="#">Sống khỏe</a> </li>
+                    <li> <a href="#">Dịch vụ y tế quốc tế</a> </li>
+                    <li> <a href="#">Kiến thức giới tính</a> </li>
+                    <li> <a href="#">Tư vấn</a> </li>
+                    <li> <a href="#">Khỏe đẹp</a> </li>
+                </ol>
+            </li>
+            <li class="has_child"> <a href="#">Văn hóa</a>
+                <ol class="sub_menu">
+                    <li> <a href="#">Đời sống văn hóa</a> </li>
+                    <li> <a href="#">Điện ảnh</a> </li>
+                    <li> <a href="#">Âm nhạc</a> </li>
+                    <li> <a href="#">Văn học</a> </li>
+                    <li> <a href="#">Hạt giống tâm hồn</a> </li>
+                </ol>
+            </li>
+            <li class="has_child"> <a href="#">Giải trí</a>
+                <ol class="sub_menu">
+                    <li> <a href="#">Hậu trường</a> </li>
+                    <li> <a href="#">Thời trang</a> </li>
+                    <li> <a href="#">TVshow</a> </li>
+                </ol>
+            </li>
+            <li class="has_child"> <a href="#">Xe ++</a>
+                <ol class="sub_menu">
+                    <li> <a href="#">Thị trường xe</a> </li>
+                    <li> <a href="#">Xe điện</a> </li>
+                    <li> <a href="#">Đánh giá</a> </li>
+                    <li> <a href="#">Cộng đồng xe</a> </li>
+                    <li> <a href="#">Kinh nghiệm - Tư vấn</a> </li>
+                    <li> <a href="#">Bảng giá ô tô</a> </li>
+                </ol>
+            </li>
+            <li class="has_child"> <a href="#">Sức mạnh số</a>
+                <ol class="sub_menu">
+                    <li> <a href="#">Sản phẩm</a> </li>
+                    <li> <a href="#">Di động - Viễn thông</a> </li>
+                    <li> <a href="#">Phần mềm - Bảo mật</a> </li>
+                    <li> <a href="#">Cộng đồng mạng</a> </li>
+                </ol>
+            </li>
+            <li class="has_child"> <a href="#">Giáo dục</a>
+                <ol class="sub_menu">
+                    <li> <a href="#">Góc phụ huynh</a> </li>
+                    <li> <a href="#">Khuyến học</a> </li>
+                    <li> <a href="#">Gương sáng</a> </li>
+                    <li> <a href="#">Giáo dục - Nghề nghiệp</a> </li>
+                    <li> <a href="#">Du học</a> </li>
+                    <li> <a href="#">Tuyển sinh</a> </li>
+                </ol>
+            </li>
+            <li> <a href="#">An sinh</a> </li>
+            <li class="has_child"> <a href="#">Pháp luật</a>
+                <ol class="sub_menu">
+                    <li> <a href="#">Hồ sơ vụ án</a> </li>
+                    <li> <a href="#">Pháp đình</a> </li>
+                </ol>
+            </li>
+            <li class="menu_more"><a href="#">KHÁC</a></li>
+        </ol>
+    
+    </nav>
+    <!-- end nav -->
+
+    <!-- start main -->
+    <main class="body container">
+        <div class="body-container">
+            <div class="singular-sidebar" data-module="article-sidebar">
+                <ul class="cpanel-action">
+                    <li><a class="cpanel-item facebook"
+                            href="http://www.facebook.com/sharer.php?u=https://dantri.com.vn/kinh-doanh/trung-quoc-tang-nhap-khau-vang-tu-nga-20221128091007017.htm"
+                            target="_blank" data-track-content="" data-content-name="article-actions"
+                            data-content-piece="article-actions-facebook"
+                            data-content-target="/kinh-doanh/trung-quoc-tang-nhap-khau-vang-tu-nga-20221128091007017.htm"><svg
+                                aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M15.1201 5.32003H17.0001V2.14003C16.0899 2.04538 15.1753 1.99865 14.2601 2.00003C11.5401 2.00003 9.68011 3.66003 9.68011 6.70003V9.32003H6.61011V12.88H9.68011V22H13.3601V12.88H16.4201L16.8801 9.32003H13.3601V7.05003C13.3601 6.00003 13.6401 5.32003 15.1201 5.32003Z"
+                                    fill="white"></path>
+                            </svg></a></li>
+                    <li><button type="button" class="cpanel-item link" data-track-content=""
+                            data-content-name="article-actions" data-content-piece="article-actions-link"
+                            data-content-target="/kinh-doanh/trung-quoc-tang-nhap-khau-vang-tu-nga-20221128091007017.htm"><svg
+                                aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.0001 17.5501L8.23008 19.2701C7.76595 19.7342 7.13646 19.995 6.48008 19.995C5.8237 19.995 5.19421 19.7342 4.73008 19.2701C4.26595 18.806 4.00521 18.1765 4.00521 17.5201C4.00521 16.8637 4.26595 16.2342 4.73008 15.7701L9.27008 11.2201C9.71569 10.773 10.3161 10.5144 10.9471 10.4976C11.5781 10.4809 12.1914 10.7073 12.6601 11.1301L12.7801 11.2301C12.9697 11.4157 13.2253 11.5185 13.4907 11.5157C13.7561 11.5128 14.0094 11.4047 14.1951 11.2151C14.3807 11.0255 14.4835 10.7699 14.4806 10.5045C14.4778 10.2391 14.3697 9.98575 14.1801 9.80009C14.1236 9.72712 14.0636 9.65703 14.0001 9.59009C13.1464 8.84741 12.0424 8.45694 10.9116 8.49779C9.78088 8.53864 8.70791 9.00775 7.91008 9.81009L3.31008 14.3601C2.52844 15.2109 2.1057 16.3308 2.13016 17.4858C2.15461 18.6409 2.62436 19.7419 3.44131 20.5589C4.25826 21.3758 5.35924 21.8456 6.51433 21.87C7.66941 21.8945 8.78929 21.4717 9.64008 20.6901L11.3701 19.0001C11.5409 18.8137 11.6348 18.5696 11.6329 18.3168C11.631 18.064 11.5334 17.8214 11.3598 17.6376C11.1862 17.4539 10.9494 17.3427 10.6971 17.3264C10.4449 17.3102 10.1958 17.3901 10.0001 17.5501ZM20.6901 3.31009C19.8489 2.4741 18.7111 2.00488 17.5251 2.00488C16.3391 2.00488 15.2013 2.4741 14.3601 3.31009L12.6301 5.00009C12.4593 5.18644 12.3654 5.43057 12.3673 5.68336C12.3692 5.93615 12.4668 6.17883 12.6404 6.36258C12.814 6.54633 13.0507 6.65751 13.303 6.67375C13.5553 6.68998 13.8043 6.61007 14.0001 6.45009L15.7301 4.73009C16.1942 4.26597 16.8237 4.00522 17.4801 4.00522C18.1365 4.00522 18.766 4.26597 19.2301 4.73009C19.6942 5.19422 19.955 5.82372 19.955 6.48009C19.955 7.13647 19.6942 7.76596 19.2301 8.23009L14.6901 12.7801C14.2445 13.2272 13.6441 13.4858 13.0131 13.5026C12.3821 13.5193 11.7688 13.2929 11.3001 12.8701L11.1801 12.7701C10.9905 12.5844 10.7348 12.4817 10.4695 12.4845C10.2041 12.4874 9.95073 12.5955 9.76508 12.7851C9.57943 12.9747 9.47671 13.2303 9.47952 13.4957C9.48234 13.7611 9.59045 14.0144 9.78008 14.2001C9.85272 14.2744 9.92951 14.3445 10.0101 14.4101C10.8648 15.1505 11.9683 15.5395 13.0984 15.4987C14.2285 15.4579 15.3011 14.9903 16.1001 14.1901L20.6501 9.64009C21.4914 8.80417 21.9678 7.66932 21.9753 6.48334C21.9828 5.29736 21.5208 4.15659 20.6901 3.31009Z"
+                                    fill="white"></path>
+                            </svg> </button></li>
+                    <li><a rel="nofollow" href="/print-20221128091007017.htm" class="cpanel-item print"
+                            data-track-content="" data-content-name="article-actions"
+                            data-content-piece="article-actions-print"
+                            data-content-target="/kinh-doanh/trung-quoc-tang-nhap-khau-vang-tu-nga-20221128091007017.htm"><svg
+                                aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6 18H4C3.46957 18 2.96086 17.7893 2.58579 17.4142C2.21071 17.0391 2 16.5304 2 16V11C2 10.4696 2.21071 9.96086 2.58579 9.58579C2.96086 9.21071 3.46957 9 4 9H20C20.5304 9 21.0391 9.21071 21.4142 9.58579C21.7893 9.96086 22 10.4696 22 11V16C22 16.5304 21.7893 17.0391 21.4142 17.4142C21.0391 17.7893 20.5304 18 20 18H18"
+                                    stroke="#FFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                </path>
+                                <path d="M18 14H6V22H18V14Z" stroke="#FFF" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                                <path d="M6 9V2H18V9" stroke="#FFF" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </svg></a></li>
+                    <li class="line"><button type="button" class="cpanel-item comment" data-track-content=""
+                            data-content-name="article-actions" data-content-piece="article-actions-comment"
+                            data-content-target="/kinh-doanh/trung-quoc-tang-nhap-khau-vang-tu-nga-20221128091007017.htm"><svg
+                                aria-hidden="true" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M26.25 18.75C26.25 19.413 25.9866 20.0489 25.5178 20.5178C25.0489 20.9866 24.413 21.25 23.75 21.25H8.75L3.75 26.25V6.25C3.75 5.58696 4.01339 4.95107 4.48223 4.48223C4.95107 4.01339 5.58696 3.75 6.25 3.75H23.75C24.413 3.75 25.0489 4.01339 25.5178 4.48223C25.9866 4.95107 26.25 5.58696 26.25 6.25V18.75Z"
+                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                </path>
+                            </svg></button></li>
+                </ul>
+            </div>
+            <div class="grid-container">
+                <div class="singular-wrap">
+                    <ul class="breadcrumbs">
+                        <li> <a title="Kinh doanh" href="/kinh-doanh.htm" data-content-name="article-breadcrumb"
+                                data-content-piece="article-breadcrumb-position_1" data-content-target="/kinh-doanh.htm"
+                                data-track-content=""> Kinh doanh </a> </li>
+                        <li> <a title="Tài chính" href="/kinh-doanh/tai-chinh.htm"
+                                data-content-name="article-breadcrumb"
+                                data-content-piece="article-breadcrumb-position_2"
+                                data-content-target="/kinh-doanh/tai-chinh.htm" data-track-content=""> Tài chính </a>
+                        </li>
+                    </ul>
+                    <article class="singular-container">
+                        <h1 class="title-page detail">Trung Quốc tăng nhập khẩu vàng từ Nga</h1>
+                        <div class="author-wrap">
+                            <div class="author-avatar"> <span> <i class="avatar-default"> </i> </span> </div>
+                            <div class="author-name"> <a href="/tac-gia/nhat-linh-37.htm"> <b>Nhật Linh</b> </a> </div>
+                            <time class="author-time" datetime="2022-11-28 10:02"> Thứ hai, 28/11/2022 - 10:02 </time>
+                        </div>
+                        <h2 class="singular-sapo">(Dân trí) - Mặc dù nhập khẩu vàng từ Nga của Trung Quốc đã tăng cao kỷ
+                            lục trong năm nay song so với các nhà cung cấp vàng lớn cho Trung Quốc, Nga vẫn kém xa Thụy
+                            Sĩ, Canada, Nam Phi, Australia…</h2>
+                        <div class="singular-content">
+                            <p>Tờ <em>RT</em> của Nga dẫn số liệu từ Tổng cục Hải quan Trung Quốc cho biết, trong tháng
+                                10 Trung Quốc đã nhập từ Nga 2,16 tấn vàng, mức cao nhất trong 7 năm qua.</p>
+                            <p>Xét về giá trị, xuất khẩu vàng nguyên liệu và bán thành phẩm của Nga sang Trung Quốc
+                                trong tháng 10 được cho là đã tăng gấp đôi, lên 124,6 triệu USD.</p>
+                            <figure class="image align-center" contenteditable="false"><img
+                                    title="Trung Quốc tăng nhập khẩu vàng từ Nga - 1"
+                                    src="https://icdn.dantri.com.vn/thumb_w/680/2022/04/02/vang-nga-russia-business-today-1648907127905.jpeg"
+                                    alt="Trung Quốc tăng nhập khẩu vàng từ Nga - 1" data-width="678" data-height="382"
+                                    data-original="https://icdn.dantri.com.vn/2022/04/02/vang-nga-russia-business-today-1648907127905.jpeg"
+                                    data-photo-id="1897007" data-track-content=""
+                                    data-content-name="article-content-image"
+                                    data-content-piece="article-content-image_1897007"
+                                    data-content-target="/kinh-doanh/trung-quoc-tang-nhap-khau-vang-tu-nga-20221128091007017.htm">
+                                <figcaption>
+                                    <p>Xuất khẩu vàng nguyên liệu và bán thành phẩm của Nga sang Trung Quốc đã tăng mạnh
+                                        trong tháng 10 (Ảnh: Russia Business Today)</p>
+                                </figcaption>
+                            </figure>
+                            <p>Tính chung trong 10 tháng qua, nhập khẩu vàng từ Nga của Trung Quốc đã đạt 5,72 tấn, gấp
+                                1,9 lần so với cùng kỳ năm 2021. Còn tính về giá trị, lượng vàng mà nước này nhập khẩu
+                                từ Nga trong thời gian từ tháng 1 đến tháng 10 đã tăng gấp 1,8 lần so với cùng kỳ năm
+                                ngoái, lên 330 triệu USD.</p>
+                            <p>Mặc dù có sự gia tăng đáng kể, song Nga vẫn kém xa Thụy Sĩ trong danh sách các nhà cung
+                                cấp vàng lớn nhất cho Trung Quốc. Tính đến tháng 10, Thụy Sĩ đã xuất khẩu sang Trung
+                                Quốc số vàng trị giá 26,5 tỷ USD. Trong khi đó, Canada xuất khẩu sang Trung Quốc số vàng
+                                trị giá 9,7 tỷ USD. Nam Phi cũng xuất khẩu kim loại quý sang Trung Quốc với tổng trị giá
+                                7,7 tỷ USD. Australia và Đức cũng lần lượt xuất khẩu vàng với trị giá 7,2 tỷ USD và 775
+                                triệu USD sang Trung Quốc.</p>
+                            <p>Theo báo cáo của cơ quan hải quan Nga, năm ngoái, tổng lượng vàng xuất khẩu của Nga là
+                                302,17 tấn. Trong đó, chỉ có 3,98 tấn được chuyển đến Trung Quốc, theo số liệu từ hải
+                                quan Trung Quốc.</p>
+                            <p>Chủ tịch Liên minh sản xuất vàng Sergey Kashuba cho biết, sở dĩ vàng Nga đến Trung Quốc
+                                tăng cao kỷ lục trong năm nay phần lớn là do năm ngoái Trung Quốc nhập ít vì các hạn chế
+                                liên quan đến Covid-19. Ngoài ra, theo ông, các nhà sản xuất vàng của Nga đã dự trữ được
+                                rất nhiều vàng do bị phong tỏa.</p>
+                            <p>Tuy nhiên, các chuyên gia nhấn mạnh, nguồn cung vàng cho Trung Quốc không phải được điều
+                                chuyển từ thị trường phương Tây, bởi người mua vàng ở phương Tây chỉ mua vàng dưới dạng
+                                thỏi, trong khi các nhà nhập khẩu Trung Quốc lại không.</p>
+                            <p>Trước đó, hồi tháng 3, Hiệp hội Thị trường vàng thỏi London (LBMA) đã loại tư cách thành
+                                viên của 6 nhà sản xuất kim loại quý của Nga. Họ cho biết, thị trường vàng thỏi London
+                                sẽ không chấp nhận vàng thỏi của Nga cho đến khi có thông báo mới. Động thái này được
+                                đưa ra trong bối cảnh phương Tây áp các lệnh trừng phạt lên Moscow để phản đối cuộc
+                                chiến tại Ukraine.</p>
+                        </div>
+                        <div class="singular-source"> Theo <strong>RT</strong> </div>
+                    </article>
+                </div>
+                <!-- sidebar -->
+                <div class="sidebar">
+                    <div id="desktop-right-1" class="mdbl">
+                        <div id="dta-100017-container" class="dta-unit" style="margin-top: 0px !important;"></div>
+                    </div>
+                    <article class="article-lot line">
+                        <div class="article-head">Đọc nhiều trong Kinh doanh</div>
+                        <article class="article-item" data-content-name="article-popular"
+                            data-content-piece="article-popular-position_1"
+                            data-content-target="/kinh-doanh/bai-hoc-cua-the-gioi-di-dong-sau-khi-dong-hon-400-cua-hang-bach-hoa-xanh-20221125213013169.htm"
+                            data-track-content="">
+                            <div class="article-thumb"> <a
+                                    href="#">
+                                    <img width="300" height="200"
+                                        alt="Bài học của Thế Giới Di Động sau khi đóng hơn 400 cửa hàng Bách Hóa Xanh"
+                                        data-src="https://icdn.dantri.com.vn/zoom/300_200/2022/07/11/bhxmwg-crop-1657534747264.jpeg"
+                                        data-srcset="https://icdn.dantri.com.vn/zoom/300_200/2022/07/11/bhxmwg-crop-1657534747264.jpeg 1x, https://icdn.dantri.com.vn/zoom/600_400/2022/07/11/bhxmwg-crop-1657534747264.jpeg 2x"
+                                        src="https://icdn.dantri.com.vn/zoom/300_200/2022/07/11/bhxmwg-crop-1657534747264.jpeg"
+                                        data-ll-status="loaded" class="entered loaded"
+                                        srcset="https://icdn.dantri.com.vn/zoom/300_200/2022/07/11/bhxmwg-crop-1657534747264.jpeg 1x, https://icdn.dantri.com.vn/zoom/600_400/2022/07/11/bhxmwg-crop-1657534747264.jpeg 2x">
+                                </a> </div>
+                            <h3 class="article-title"> <a
+                                    href="#">Bài
+                                    học của Thế Giới Di Động sau khi đóng hơn 400 cửa hàng Bách Hóa Xanh</a> </h3>
+                        </article>
+                        <article class="article-item" data-content-name="article-popular"
+                            data-content-piece="article-popular-position_2"
+                            data-content-target="/kinh-doanh/o-to-vinfast-vuot-bien-sang-my-tai-san-ty-phu-vuong-tang-soc-20221125223806475.htm"
+                            data-track-content="">
+                            <div class="article-thumb"> <a
+                                    href="#">
+                                    <img width="90" height="60"
+                                        alt="Ô tô VinFast vượt biển sang Mỹ, tài sản tỷ phú Vượng tăng sốc"
+                                        data-src="https://icdn.dantri.com.vn/zoom/90_60/2022/11/25/xuat-khau-xe-vinfastanh-vf-1669390308061.jpg"
+                                        data-srcset="https://icdn.dantri.com.vn/zoom/90_60/2022/11/25/xuat-khau-xe-vinfastanh-vf-1669390308061.jpg 1x, https://icdn.dantri.com.vn/zoom/180_120/2022/11/25/xuat-khau-xe-vinfastanh-vf-1669390308061.jpg 2x"
+                                        src="https://icdn.dantri.com.vn/zoom/90_60/2022/11/25/xuat-khau-xe-vinfastanh-vf-1669390308061.jpg"
+                                        data-ll-status="loaded" class="entered loaded"
+                                        srcset="https://icdn.dantri.com.vn/zoom/90_60/2022/11/25/xuat-khau-xe-vinfastanh-vf-1669390308061.jpg 1x, https://icdn.dantri.com.vn/zoom/180_120/2022/11/25/xuat-khau-xe-vinfastanh-vf-1669390308061.jpg 2x">
+                                </a> </div>
+                            <h3 class="article-title"> <a
+                                    href="#">Ô
+                                    tô VinFast vượt biển sang Mỹ, tài sản tỷ phú Vượng tăng sốc</a> </h3>
+                        </article>
+                        <article class="article-item" data-content-name="article-popular"
+                            data-content-piece="article-popular-position_3"
+                            data-content-target="/kinh-doanh/loat-xe-sang-mercedes-bi-ngan-hang-siet-no-nam-bai-cho-thanh-ly-20221127173107773.htm"
+                            data-track-content="">
+                            <div class="article-thumb"> <a
+                                    href="#">
+                                    <img width="90" height="60"
+                                        alt="Loạt xe sang Mercedes bị ngân hàng siết nợ, nằm bãi chờ thanh lý"
+                                        data-src="https://icdn.dantri.com.vn/zoom/90_60/2022/11/27/mercedesthanh-ly-crop-1669544589597.jpeg"
+                                        data-srcset="https://icdn.dantri.com.vn/zoom/90_60/2022/11/27/mercedesthanh-ly-crop-1669544589597.jpeg 1x, https://icdn.dantri.com.vn/zoom/180_120/2022/11/27/mercedesthanh-ly-crop-1669544589597.jpeg 2x"
+                                        src="https://icdn.dantri.com.vn/zoom/90_60/2022/11/27/mercedesthanh-ly-crop-1669544589597.jpeg"
+                                        data-ll-status="loaded" class="entered loaded"
+                                        srcset="https://icdn.dantri.com.vn/zoom/90_60/2022/11/27/mercedesthanh-ly-crop-1669544589597.jpeg 1x, https://icdn.dantri.com.vn/zoom/180_120/2022/11/27/mercedesthanh-ly-crop-1669544589597.jpeg 2x">
+                                </a> </div>
+                            <h3 class="article-title"> <a
+                                    href="#">Loạt
+                                    xe sang Mercedes bị ngân hàng siết nợ, nằm bãi chờ thanh lý</a> </h3>
+                        </article>
+                        <article class="article-item" data-content-name="article-popular"
+                            data-content-piece="article-popular-position_4"
+                            data-content-target="/kinh-doanh/nvl-giam-san-phien-thu-16-va-ke-hoach-cua-ong-bui-thanh-nhon-20221124202052609.htm"
+                            data-track-content="">
+                            <div class="article-thumb"> <a
+                                    href="#">
+                                    <img width="90" height="60"
+                                        alt="NVL giảm sàn phiên thứ 16 và kế hoạch của ông Bùi Thành Nhơn"
+                                        data-src="https://icdn.dantri.com.vn/zoom/90_60/2022/11/22/novaland-crop-1669096855967.jpeg"
+                                        data-srcset="https://icdn.dantri.com.vn/zoom/90_60/2022/11/22/novaland-crop-1669096855967.jpeg 1x, https://icdn.dantri.com.vn/zoom/180_120/2022/11/22/novaland-crop-1669096855967.jpeg 2x"
+                                        src="https://icdn.dantri.com.vn/zoom/90_60/2022/11/22/novaland-crop-1669096855967.jpeg"
+                                        data-ll-status="loaded" class="entered loaded"
+                                        srcset="https://icdn.dantri.com.vn/zoom/90_60/2022/11/22/novaland-crop-1669096855967.jpeg 1x, https://icdn.dantri.com.vn/zoom/180_120/2022/11/22/novaland-crop-1669096855967.jpeg 2x">
+                                </a> </div>
+                            <h3 class="article-title"> <a
+                                    href="#">NVL
+                                    giảm sàn phiên thứ 16 và kế hoạch của ông Bùi Thành Nhơn</a> </h3>
+                        </article>
+                        <article class="article-item" data-content-name="article-popular"
+                            data-content-piece="article-popular-position_5"
+                            data-content-target="/kinh-doanh/hieu-pc-goi-ten-6-chieu-thuc-lua-dao-cuom-tien-tu-tai-khoan-ngan-hang-20221128140518122.htm"
+                            data-track-content="">
+                            <div class="article-thumb"> <a
+                                    href="#">
+                                    <img width="90" height="60"
+                                        alt="Hiếu PC gọi tên 6 chiêu thức lừa đảo, &quot;cuỗm tiền&quot; từ tài khoản ngân hàng"
+                                        data-src="https://icdn.dantri.com.vn/zoom/90_60/2022/11/29/lua-dao-crop-1669683052693.jpeg"
+                                        data-srcset="https://icdn.dantri.com.vn/zoom/90_60/2022/11/29/lua-dao-crop-1669683052693.jpeg 1x, https://icdn.dantri.com.vn/zoom/180_120/2022/11/29/lua-dao-crop-1669683052693.jpeg 2x"
+                                        src="https://icdn.dantri.com.vn/zoom/90_60/2022/11/29/lua-dao-crop-1669683052693.jpeg"
+                                        data-ll-status="loaded" class="entered loaded"
+                                        srcset="https://icdn.dantri.com.vn/zoom/90_60/2022/11/29/lua-dao-crop-1669683052693.jpeg 1x, https://icdn.dantri.com.vn/zoom/180_120/2022/11/29/lua-dao-crop-1669683052693.jpeg 2x">
+                                </a> </div>
+                            <h3 class="article-title"> <a
+                                    href="#">Hiếu
+                                    PC gọi tên 6 chiêu thức lừa đảo, "cuỗm tiền" từ tài khoản ngân hàng</a> </h3>
+                        </article>
+                    </article>
+                    <div id="desktop-right-2" class="mdbl dta-sticky">
+                        <div id="dta-100018-container" class="dta-unit" data-filled="true" data-partner="adx"
+                            style="opacity: 1;">
+                            <div class="tpm_attribution"><a target="_blank"
+                                    href="https://dtadnetwork.com?utm_source=dantri.com.vn"><span><em>Quảng cáo của</em>
+                                        <strong>DTads</strong></span></a></div>
+                            <div id="dta-100018-gam"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="desktop-footer" class="mdbl"></div>
+    </main>
+    <!-- end main -->
+
+    <!--start footer -->
+    <footer class="footer container bg-wrap">
+        <div class="footer-logo flex_jcc">
+            <a href="#">
+                <img width="102" height="25" alt="Báo điện tử Dân trí - Tin tức cập nhật liên tục 24/7"
+                    data-src="https://cdnweb.dantri.com.vn/dist/static-logo.1-0-1.329fb29fe0ea34cca545.svg"
+                    src="./assests/images/coollogo_com-16613435.png" data-ll-status="loaded" class="entered loaded">
+            </a>
+        </div>
+        <div class="footer-wrap">
+            <div class="footer-col footer-one">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.55015826583!2d106.79198281462318!3d10.845696392274503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527158a0a5b81%3A0xf45c5d34ac580517!2zUGjDom4gaGnhu4d1IFRyxrDhu51uZyDEkOG6oWkgaOG7jWMgR1RWVCB04bqhaSBUcC4gSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1669661031323!5m2!1svi!2s"
+                    width="550" height="180" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="footer-col footer-two">
+                <ul class="footer-list">
+                    <li>Telephone: <a href="tel:0945540303">0976320547</a></li>
+                    <li>Email: <a href="mailto:quangcao@dantri.com.vn">6251071025@st.utc2.edu.vn</a></li>
+                    <li><a class="contact" href="./contact.html">Contact(Liên hệ)</a></li>
+                </ul>
+
+
+            </div>
+            <div class="footer-col footer-three">
+                <!-- app -->
+                <div class="footer-app"> <label class="footer-app-label">Theo dõi <b>tin tức</b> trên mobile:</label>
+                    <div class="footer-app-ico flex_jcc">
+                        <a class="ios" target="_blank" rel="nofollow" href="#">
+                            <img src="https://cdnweb.dantri.com.vn/dist/ee6bf097e303486d2a1c.png" alt="">
+                        </a>
+
+                        <a class="android" target="_blank" rel="nofollow" href="#">
+                            <img src="https://cdnweb.dantri.com.vn/dist/25695d60eaeb16411962.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- label -->
+                <div class="social flex-jcc">
+                    <label class="social-label">Cùng kết bạn với mình trên:</label>
+                    <div class="social-list flex_jcc">
+                        <a class="facebook" target="_blank" rel="nofollow"
+                            href="https://www.facebook.com/profile.php?id=100053075202582">
+                            <!-- Facebook -->
+                            <img src="https://cdn.cdnlogo.com/logos/f/35/facebook.png" alt="">
+                        </a>
+                        <a class="tiktok" target="_blank" rel="nofollow" href="https://www.tiktok.com/@vangiang_1025">
+                            <!-- Tiktok -->
+                            <img src="https://w7.pngwing.com/pngs/986/124/png-transparent-tiktok-social-media-logos-brands-icon-thumbnail.png"
+                                alt="">
+                        </a>
+                        <a class="instagram" target="_blank" rel="nofollow"
+                            href="https://www.instagram.com/van_giang03/">
+                            <!-- Instagram -->
+                            <img src="https://www.freepnglogos.com/uploads/instagram-icon-png/new-instagram-logo-png-6.png"
+                                alt="">
+                        </a>
+                        <a class="github" target="_blank" rel="nofollow" href="https://github.com/phamvangjang">
+                            <!-- Github -->
+                            <img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="">
+                        </a>
+                        <a class="twitter" target="_blank" rel="nofollow" href="https://twitter.com/VANGIANG2003">
+                            <!-- Twitter -->
+                            <img src="https://e7.pngegg.com/pngimages/708/311/png-clipart-twitter-twitter-thumbnail.png"
+                                alt="">
+                        </a>
+                        <a class="linkedin" target="_blank" rel="nofollow"
+                            href="https://www.linkedin.com/in/pham-van-giang-a7453a254/">
+                            <!-- Linkedin -->
+                            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- copyright -->
+        <div class="copyright">© 28-11-2022 Code by PhamVanGiang.</div>
+
+    </footer>
+    <!-- end footer -->
+
+    <!-- scroll-top -->
+    <div id="scroll-top" style="display: inline;">
+        <svg aria-hidden="true" width="32" height="32" viewBox="0 0 32 32" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M22 19L16 13L10 19" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assests/js/main.js"></script>
+</body>
+
+</html>
